@@ -1,0 +1,24 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "5page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gevorgabgaryan/1219project1.git"
+  },
+  "author": "bg1219",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gevorgabgaryan/1219project1/issues"
+  },
+  "homepage": "https://github.com/gevorgabgaryan/1219project1#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
