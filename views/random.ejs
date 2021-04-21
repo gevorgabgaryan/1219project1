@@ -1,0 +1,12 @@
+<%- include('components/header') %>
+<main class="container pt-5">
+    <form action="" class="pt-5">
+        <p>Min<input type="text" name="min"></p>
+        <p>Max<input type="text" name="max"></p>
+        <p><input type="submit" value="getRandomNumber"></p>
+    </form>
+    <% if(rand){ %>
+       <h1>Random number is <%= rand %></h1>
+    <% } %>
+</main>
+<%- include('components/footer') %>
